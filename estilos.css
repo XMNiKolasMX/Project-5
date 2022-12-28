@@ -1,0 +1,76 @@
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 40px 3px;
+    font-size: 20px;
+    transition: 3s;
+}
+
+
+div {
+    width: 200;
+    height: 860px;
+    padding: 0;
+    border: 8px solid red;
+    background: yellow ;
+}
+
+.inicio{
+    box-sizing: content-box;
+}
+
+.contenido{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    margin: 50px;
+    padding: 0;
+    float: left;
+}
+
+ul li a{
+    display: block;
+    width: 150px;
+    padding: 40px 8;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+ul li a:hover{
+    color: brown  ;
+}
+
+.imagen img{
+    width: 100%;
+    margin: 0.2px;
+    border-radius:  2% 2% ;
+    height: 800px;
+    background: #448ed3 ;
+    position: relative;
+    bottom: 50px;
+}
+
+.contador{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 30%;
+    border:2px solid #fff;
+    display: block;
+}
